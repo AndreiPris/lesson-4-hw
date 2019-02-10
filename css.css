@@ -1,0 +1,37 @@
+.first{
+width: 500px;
+height: 250px;
+border-radius: 10px;
+display: block;
+border: 2px solid orange;
+position: relative;
+left:50px;
+}
+.second{
+    width:600px;
+    height: 250px;
+    border-radius: 20px;
+    display: block;
+    border: 2px solid blue;
+    position: static;
+    
+}
+.parent{
+    width:1000px;
+    height: 200px;
+    border: 2px solid green;
+    position: relative;
+    display: block;
+}
+.abschild {
+    width:400px;
+    height: 150px;
+    border: 2px solid red;
+    position: absolute;
+    top: 660px;
+    right: 10px;
+    left:590px;
+
+
+}
+  
